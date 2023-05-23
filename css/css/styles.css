@@ -1,0 +1,70 @@
+
+/* this file for external css, this means that by using this we can make change in our all files that belonging to this folder
+*/
+/****************************** tag selector********************************/ 
+    body {
+        
+        background-color: #BFEAF5;
+        
+    }
+    h1 {
+        color: #3C79F5;
+    }
+    h3{
+        color: #6D67E4;
+    }
+    hr {
+        /* background-color: white ;
+        border-style: none;
+        height: 2px;
+        width: 60%;*/ 
+        /* if we want to print dots*/
+        border-style: none;
+        border-top-style: dotted;
+        border-color: grey ;
+        border-width: 5px ;
+        width: 20%;
+    }
+    img{
+        height: 200px;
+    }
+    h3 :hover{
+        background-color: gold ; 
+    }
+/* by the upper class the backgorund color changes when 
+   /* ****************************** class selector********************************/ 
+    .heading_for_skills {
+        color: red ;
+    }
+
+
+
+   /* ****************************** ide selectors********************************/ 
+#contact{
+    color: black ;
+}
+
+/* priority :- ide > class> tag 
+
+in ide method we only have only one unique name of id but in class we can have some name 
+we can only use one word in ide but in class we can use more than one classes 
+example: 
+<h1 class = "jat muqabala; " > --> here we can change h1 heading by both jat and muqabal class 
+<h1 id="jaat ghosliya;" > (! not valid) we can't use multiple ids in a id. 
+<h1 id="jat;"> vaild  
+
+.jat{
+    background-color: red ;     
+} 
+.muqalbala{
+    font : 10px ; 
+}
+
+
+
+#jaat{
+    background-class: blue ; 
+}
+// the upper code is useless 
+
+
